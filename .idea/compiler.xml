@@ -13,4 +13,9 @@
       <module name="java-fx-app" target="18" />
     </bytecodeTargetLevel>
   </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="java-fx-app" options="--add-exports javafx.graphics/com.sun.javafx.tk.quantum=ru.gb.javafxapp" />
+    </option>
+  </component>
 </project>
