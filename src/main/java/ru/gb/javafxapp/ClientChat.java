@@ -94,7 +94,6 @@ public class ClientChat extends JFrame implements ActionListener {
                 new ClientChat();
             }
 
-            }
         }
     }
-
+}
